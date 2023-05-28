@@ -6,7 +6,6 @@ function Page() {
     const { page, limit } = useSelector(state => state.PageReduser)
     const dispatch = useDispatch()
 
-
     return (
         <>
             <div>
